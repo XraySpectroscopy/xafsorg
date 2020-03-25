@@ -21,7 +21,7 @@ energies in the X-ray regime, nearly all elements can be studied with
 XAFS. The emphasis has traditionally been on the heavier elements (of Z>15
 or so).
 
-An energy-tunable Xx-ray source is needed to measure XAFS, which typically
+An energy-tunable X-ray source is needed to measure XAFS, which typically
 means a synchrotron is used. Unlike diffraction-based techniques for
 studying atomic structure of matter, XAFS does not require a crystalline
 samples.
@@ -44,4 +44,4 @@ More information about XAFS can related methods can be found on the pages.
    related_techniques
    community
    jobs
-   recent_news
+   about

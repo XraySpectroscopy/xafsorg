@@ -1,5 +1,0 @@
-.. Recent News
-
-Recent News
--------------------
-

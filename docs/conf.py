@@ -1,13 +1,10 @@
 # -*- coding: utf-8 -*-
 #
 
-from datetime import date
 import sphinx_rtd_theme
 
-
-
 project = 'xafs.org'
-copyright = '{}, Public Domain. Author: Matthew Newville, The University of Chicago'.format(date.today().year)
+copyright = 'Public Domain. See About for Auhtors'
 release = '0.1'
 html_title = 'XAFS.ORG'
 html_short_title = 'XAFS.ORG'
