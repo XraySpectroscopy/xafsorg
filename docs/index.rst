@@ -12,23 +12,24 @@ International XAFS Society,  https://xrayabsorption.org/.
 XAFS, EXAFS, and XANES
 -----------------------
 
-XAFS is a spectroscopic technique that uses X-rays to probe the physical
-and chemical structure of matter at an atomic scale. XAFS is
-element-specific, in that X-rays are chosen to be at and above the binding
-energy of a particular core electronic level of a particular atomic
-species. Because all but the lightest elements have core-level binding
-energies in the X-ray regime, nearly all elements can be studied with
-XAFS. The emphasis has traditionally been on the heavier elements (of Z>15
-or so).
+XAFS is a spectroscopic technique that uses the absorption of X-rays to
+probe the physical and chemical structure of matter at an atomic
+scale. X-ray absorption spectroscopy is element-specific, in that X-rays
+are chosen to be at and above the binding energy of a particular core
+electronic level of a particular atomic species. Because all but the
+lightest elements have core-level binding energies in the X-ray regime,
+nearly all elements can be studied with XAFS. Traditionally, the emphasis
+has been on the heavier elements (of Z>15 or so), but applications to
+lighter elements are also possible.
 
-An energy-tunable X-ray source is needed to measure XAFS, which typically
-means a synchrotron is used. Unlike diffraction-based techniques for
-studying atomic structure of matter, XAFS does not require a crystalline
-samples.
+An energy-tunable X-ray source is
+needed to measure XAFS.  This typically means that a synchrotron source is
+used, but some laboratory-based systems do exist.
+
+See :ref:`Acronyms` are a list and brief discussion of the many variations
+on the terms and acronymy used to describe X-ray absorption spectroscopy.
 
 More information about XAFS can related methods can be found on the pages.
-
-
 
 .. toctree::
    :maxdepth: 2
