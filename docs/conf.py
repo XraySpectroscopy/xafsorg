@@ -29,6 +29,7 @@ add_function_parentheses = True
 add_module_names = False
 
 html_static_path = ['_static']
+html_favicon = '_static/ixas_logo.ico'
 
 html_sidebars = {'index': ['indexsidebar.html','searchbox.html']}
 html_show_sourcelink = True

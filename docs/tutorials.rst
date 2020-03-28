@@ -6,6 +6,11 @@
 .. _X-ray Spectroscopy mini Courses: http://www.umich.edu/~jphgroup/XAS_Course/index.htm
 .. _XAS Education:                   http://bruceravel.github.com/XAS-Education
 
+.. _Fundamentals of XAFS:            https://docs.xrayabsorption.org/tutorials/XAFS_Fundamentals.pdf
+.. _XAFS Overview:                   https://docs.xrayabsorption.org/tutorials/XAFS_Overview.pdf
+.. _Basics of EXAFS Processing:      https://docs.xrayabsorption.org/tutorials/Basics_of_XAFS_to_chi_2009.pdf
+.. _Basics of EXAFS Data Analysis:   https://docs.xrayabsorption.org/tutorials/Basics_of_XAFS_analysis_2009.pdf
+
 Tutorials
 -------------------
 
@@ -13,7 +18,7 @@ Many of the :ref:`Workshops` will host tutorial materials.  In fact, most
 of the links to presentations here are from training workshops.
 
 
-A partial list of websites with introductory and tutorial pages on XAFS
+A partial list of external websites with introductory and tutorial pages on XAFS
 
 
   * `XAFS Tutorials`_ from Grant Bunker, Illinois Institute of Technology
@@ -22,22 +27,17 @@ A partial list of websites with introductory and tutorial pages on XAFS
   * `XAS Education`_ from Bruce Ravel, National Institute of Standards and
     Technology.  See also: https://speakerdeck.com/bruceravel
 
-Some
+Some slides from oral presentations hosted here (PDF format except where noted):
 
-XAFS Tutorials and Overviews hosted on xafs.org (PDF format except where noted)
-Except where noted, these are PDF files containing sets of slides for an oral presentation
 
-Matt Newville's Tutorials: The last two files are companions to the longer write-up, containing similar material in a form more suitable for a lecture. This material (write-up, and the corresponding slides) is a work in progress. Any feedback would be greatly appreciated.
-The Fundamentals of XAFS: a ~40 page introduction to XAFS, aimed at the advanced undergraduate level.
+  * `XAFS Overview`_    from Matt Newville, University of Chicago.  Slides
+    from an overview of XAFS.
+  * `Fundamentals of XAFS`_ from Matt Newville, University of Chicago.  A
+    longer (~40 page) writeup of notes and discussion of the basics of XAFS.
 
-Fundamentals of X-ray Absorption Fine Structure
+  * `Basics of EXAFS Processing`_ from Shelly Kelly, UOP. Introducing the basics of processing chi(k) data in Athena.
+  * `Basics of EXAFS Data Analysis`_ from Shelly Kelly, UOP. Introducing the basics of modeling EXAFS spectra in Artemis.
 
-Anatomy of an XAFS Experiment
-
-Shelly Kelly's Tutorials:
-The Basics of processing chi(k) data in Athena: introducing the basics of processing chi(k) data in Athena.
-
-The Basics of modeling EXAFS spectra in Artemis: introducing the basics of modeling EXAFS spectra in Artemis.
 
 XAFS Tutorials and Overviews in languages other than English
 Introduction to XAFS from Yaning Xie, Senior Researcher at Beijing Synchrotron Radiation Facility (BSRF) and Institute of High Energy Physics, Beijing, China.
