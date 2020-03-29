@@ -46,13 +46,6 @@ Some slides from oral presentations hosted here (PDF format except where noted):
   * `Introduction to XAFS`_ from Yaning Xie, Senior Researcher at Beijing
     Synchrotron Radiation Facility (BSRF) and Institute of High Energy Physics, Beijing, China.
 
-Information on Specific Topics in XAFS
-
-   * Information about various sample-related distortions to measured XAS
-     data, and how to avoid them (move to experiment)
-   * What information should be reported in your manuscirpt with XAFS
-     Analysis? (move?)
-
 
 Books
 ---------------------
@@ -138,7 +131,23 @@ Review Articles, Articles in Series
     Chemistry Reviews 249, pp 31-63, 2005. `link
     <https://doi.org/10.1016/j.ccr.2004.03.018>`_.
 
+  * *High resolution 1s core hole X-ray spectroscopy in 3d transition metal
+    complexes - electronic and structural information*, P. Glatzel and
+    U. Bergmann, Coordination Chemistry Reviews 249, pp 65-95, 2005. `link
+    <https://doi.org/10.1016/j.ccr.2004.04.011>`_.
+
+  * See also many other excellent articles in *Synchrotron Radiation in
+    Inorganic and Bioinorganic Chemistry*, E. I. Solomon, Editor, Coordination
+    Chemistry Reviews 249, 2005. `link <https://doi.org/10.1016/S0010-8545(04)00294-2>`_.
+
+
+Information on Specific Topics in XAFS
+
+   * Information about various sample-related distortions to measured XAS
+     data, and how to avoid them (move to experiment)
+   * What information should be reported in your manuscirpt with XAFS
+     Analysis? (move?)
 
 
 Webcasts, screencasts, and other remote learning tools
-Local structure refinement on the basis of XANES fitting using FitIt software
+gitmakLocal structure refinement on the basis of XANES fitting using FitIt software
