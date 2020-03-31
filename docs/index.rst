@@ -45,5 +45,4 @@ More information about XAFS can related methods can be found on the pages.
    related_techniques
    acronyms
    community
-   jobs
    about
