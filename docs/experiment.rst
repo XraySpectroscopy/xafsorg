@@ -33,23 +33,21 @@ Beamline Hardware
 :X-ray Optics:
 
 :Detectors:
-   Repairing a Lytle Chamber (originally pointed to Experiment/LytleChamber)
+   `Repairing a Lytle Chamber <Experiment/LytleChamber.html>`_
 
 :In-Situ Cells:
 
 :Other Experimental Needs:
-   Energy Calibration Standards (originally pointed to /EnergyCalibrationStandards)
+   `Energy Calibration Standards <Experiment/EnergyCalibrationStandards.html>`_
 
 Sample Preparation
 ------------------
 
-* Information about various sample-related distortions to measured XAS data, and how to avoid them
-  (originally pointed to Experiment/OverAbsorption)
+* `Information about various sample-related distortions to measured
+  XAS data, and how to avoid them <Experiment/OverAbsorption.html>`_
 
-* Sample Cells (originally pointed to Experiment/SampleCells)
-
-* Preparing doubly contained samples for XAS measurement
-  (originally pointed to Experiment/DoublyContainedSamples)
+* `Preparing doubly contained samples for XAS measurement
+  <Experiment/DoublyContainedSamples.html>`_
 
 Other topics
 ------------
