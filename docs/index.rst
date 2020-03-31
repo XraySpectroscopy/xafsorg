@@ -43,6 +43,7 @@ More information about XAFS can related methods can be found on the pages.
    theory
    analysis
    related_techniques
+   acronyms
    community
    jobs
    about
