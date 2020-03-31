@@ -155,11 +155,5 @@ Review Articles, Articles in Series
 .. 
   Information on Specific Topics in XAFS
 
-   * Information about various sample-related distortions to measured XAS
-     data, and how to avoid them (move to experiment)
-   * What information should be reported in your manuscirpt with XAFS
-     Analysis? (move?)
-
-
   Webcasts, screencasts, and other remote learning tools
   gitmakLocal structure refinement on the basis of XANES fitting using FitIt software
