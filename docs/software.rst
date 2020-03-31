@@ -11,6 +11,7 @@ exactly up-to-date.  This list is presented alphabetically by package
 name.
 
 * `CDXAS <https://www.esrf.eu/computing/scientific/exafs/cdxas.html>`_ : Classic and Dispersive X-ray Absorption Spectroscopy
+* `CTM4XAS <http://www.anorg.chem.uu.nl/CTM4XAS/>`_ : multiplet calculations of core level spectral shapes from Frank de Groot
 * `Demeter <https://bruceravel.github.io/demeter/>`_ : Bruce Ravel's collection of analysis programs (Athena, Artemis, and Hephaestus)
 * `DL_Excurv <http://www.cse.clrc.ac.uk/cmg/EXCURV/>`_ : Later version of EXCURV98
 * `EDA <http://www.dragon.lv/eda/>`_ : EXAFS Data Analysis Software Package (EDA) from Alexai Kuzmin
@@ -40,6 +41,10 @@ name.
 * `WinXAS <http://www.winxas.de/>`_ by Thorsten Ressler
 * `XDAP <http://www.xsi.nl/>`_ for Windows from XAFS Services International
 * `XANADU <http://www.ccn.yamanashi.ac.jp/~eijin/GermJpn.html>`_ by Masao Takahashi and Hideto Sakane
+
+
+Here is ESRF's `very old list of XAFS software <https://www.esrf.eu/computing/scientific/exafs/intro.html>`_.
+
 
 
 

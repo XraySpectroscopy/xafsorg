@@ -98,3 +98,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+## emacs-y things
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+auto-save-list
+tramp
+.\#*

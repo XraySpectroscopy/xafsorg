@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 
-import sphinx_rtd_theme
+import os, sys, sphinx_rtd_theme
 
 project = 'xafs.org'
 copyright = 'Public Domain. See About for Auhtors'
@@ -12,8 +12,9 @@ html_short_title = 'XAFS.ORG'
 pygments_style = 'sphinx'
 html_theme = 'sphinx_rtd_theme'
 
-extensions = ['sphinx.ext.todo', 'sphinx.ext.mathjax',
-              "sphinx_rtd_theme"]
+sys.path.insert(0, os.path.abspath(os.path.join('.', 'ext')))
+extensions = ['subfig',
+              ]
 
 intersphinx_mapping = {'py': ('https://docs.python.org/3/', None)}
 
@@ -33,3 +34,4 @@ html_favicon = '_static/ixas_logo.ico'
 
 html_sidebars = {'index': ['indexsidebar.html','searchbox.html']}
 html_show_sourcelink = True
+
