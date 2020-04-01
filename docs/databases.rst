@@ -42,18 +42,18 @@ Databases for X-ray Absorption and XAFS measurements
 Periodic Table of X-ray Absorption and Emission Energies
 --------------------------------------------------------
 
-This page holds a links for a Poster-sized Periodic Table of X-ray
-Absorption Edge energies and X-ray emission line energies. This Periodic
-Table displays hard X-ray absorption edges (K, L1, L2, L3, M5) energies,
-principle K, L, and M emission line energies, and most common oxidation
-states for each element.
+Below are links for a poster-sized Periodic Table of X-ray Absorption
+Edge energies and X-ray emission line energies.  This Periodic Table
+displays hard X-ray absorption edges (K, L1, L2, L3, M5) energies,
+principle K, L, and M emission line energies, and most common
+oxidation states for each element.
 
-The table is generated using X-ray data from W. T. Elam, B. D. Ravel and
-J. R. Sieber, Radiation Physics and Chemistry **63** (2),
+The table is generated using X-ray data from W. T. Elam, B. D. Ravel
+and J. R. Sieber, Radiation Physics and Chemistry **63** (2),
 pp. 121–128 (2002) (`DOI:10.1016/S0969-806X(01)00227-4
 <http://dx.doi.org/10.1016/S0969-806X(01)00227-4>`__). The code used
 to generate this Poster is freely available as part of the `XrayDB
-<https://github.com/xraypy/XrayDB/>`__ database.
+<https://github.com/xraypy/XrayDB/>`__ python module and database.
 
 The poster looks like this:
 
@@ -62,10 +62,10 @@ The poster looks like this:
    :align: center
 
 but this image is too low-resolution to print well as a large format,
-and you should use one of the PDF file listed below.
+and you should use one of the PDF files listed below.
 
-The poster is currently available picturing four physicists famous for
-pioneering work in X-ray spectroscopy.
+The poster is currently available picturing one of four physicists
+famous for pioneering work in X-ray spectroscopy.
 
 :Henry Mosley:
    https://docs.xrayabsorption.org/XrayPeriodicTable/xray_table_Moseley.pdf
@@ -101,10 +101,12 @@ Reference data
   for a simple flask and SQLite based data library.
 
 * `The Farrel Lytle Database at IIT
-  <http://ixs.iit.edu/database/data/Farrel_Lytle_data/>`_ (This is a
-  "database" in the loosest possible sense of the term. Converting
-  thesed data to a usable form is a non-trivial problem.  Perhaps
-  point to some examples of how to do so.)
+  <http://ixs.iit.edu/database/data/Farrel_Lytle_data/>`_.  Note: 
+  This is a
+  "database" in the loosest possible sense of the term.
+
+  .. todo:: Converting Lytle data to a usable form is a non-trivial
+     problem.  Perhaps point to some examples of how to do so.
 
 .. A small but handy database of standards from NSLS beamline X18b
 

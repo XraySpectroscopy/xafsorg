@@ -3,17 +3,18 @@
 
 import os, sys, sphinx_rtd_theme
 
-project = 'xafs.org'
+project = 'xrayabsorption.org'
 copyright = 'Public Domain. See About for Auhtors'
 release = '0.1'
-html_title = 'XAFS.ORG'
-html_short_title = 'XAFS.ORG'
+html_title = 'xrayabsorption.org'
+html_short_title = 'xrayabsorption.org'
 
 pygments_style = 'sphinx'
 html_theme = 'sphinx_rtd_theme'
 
 sys.path.insert(0, os.path.abspath(os.path.join('.', 'ext')))
-extensions = ['subfig',
+extensions = ['sphinx.ext.todo', 'sphinx.ext.mathjax',
+              "sphinx_rtd_theme", 'subfig',
               ]
 
 intersphinx_mapping = {'py': ('https://docs.python.org/3/', None)}
@@ -34,4 +35,6 @@ html_favicon = '_static/ixas_logo.ico'
 
 html_sidebars = {'index': ['indexsidebar.html','searchbox.html']}
 html_show_sourcelink = True
+
+todo_include_todos = True
 

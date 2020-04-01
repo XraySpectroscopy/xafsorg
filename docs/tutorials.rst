@@ -50,7 +50,9 @@ Some slides from oral presentations hosted here (PDF format except where noted):
 Books
 ---------------------
 
-We do not endorse Amazon.com, but provide a link to an Amazon page for these books where available:
+We do not endorse Amazon.com and we do not participate in the Amazon
+Affiliate program. Amazon links are given for these books as a
+convenience for the reader.
 
   * *Introduction to XAFS: A Practical Guide to X-ray Absorption Fine
     Structure Spectroscopy*, Grant Bunker, Cambridge University Press 2010.
@@ -59,7 +61,7 @@ We do not endorse Amazon.com, but provide a link to an Amazon page for these boo
     `Publisher <https://www.cambridge.org/us/academic/subjects/physics/condensed-matter-physics-nanoscience-and-mesoscopic-physics/introduction-xafs-practical-guide-x-ray-absorption-fine-structure-spectroscopy?format=HB>`__ |cdot|
     `Amazon <https://www.amazon.com/Introduction-XAFS-Practical-Absorption-Spectroscopy/dp/052176775X>`__.
 
-  * *XAFS for Everyone*, Scott Calvin Calvin, CRC Press, 2013.  An amazing
+  * *XAFS for Everyone*, Scott Calvin, CRC Press, 2013.  An amazing
     addition to the scientific literature, this book combines a rigorous yet
     practical guide to XAFS with a conversational tone and graphics that
     asks and then answers all manner of questions about XAFS.
