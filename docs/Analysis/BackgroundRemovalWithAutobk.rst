@@ -13,12 +13,12 @@ Background Removal Using the Autobk Algorithm
 
 The Autobk algorithm is the background removal method used in Ifeffit
 and, by extension, in Athena. The fundamental principle of this
-algorithm is that the background function &mu;,,0,,(E) can be
-distinguished from the fine structure function &chi;(k) using a
-criterion defined in the space of the Fourier transform of &chi;(k). In
+algorithm is that the background function |mu|\ :sub:`0`\ (E) can be
+distinguished from the fine structure function |chi|\ (k) using a
+criterion defined in the space of the Fourier transform of |chi|\ (k). In
 short, we assert that there is a cut-off in R-space below which the
 Fourier components are dominated by the background and above which the
-Fourier components are dominated by &chi;(k).
+Fourier components are dominated by |chi|\ (k).
 
 The reference for the Autobk algorithm is here:
 `DOI:10.1103/PhysRevB.47.14126 <https://doi.org/10.1103/PhysRevB.47.14126>`__
@@ -27,32 +27,32 @@ The reference for the Autobk algorithm is here:
 The default values for the background removal parameters
 --------------------------------------------------------
 
-Here are some Ga K-edge data provided in a
-`recent question <http://millenia.cars.aps.anl.gov/pipermail/ifeffit/2010-September/009626.html>`__
-on the Ifeffit mailing list. The background function, the red line, was
-determined using the default values for all the settings that effect its
-determination.
+Here are some Ga K-edge data provided in a `long-ago question
+<https://millenia.cars.aps.anl.gov/pipermail/ifeffit/2010-September/005103.html>`__
+on the Ifeffit mailing list. The background function, the red line,
+was determined using the default values for all the settings that
+effect its determination.
 
 .. _figBRWA1:
 .. figure:: https://docs.xrayabsorption.org/EXAFSAnalysis/BackgroundRemovalWithAutobk/mu0_default.png
    :align: center
    :width: 50%
 
-   Ga mu(E) data with default background parameters
+   Ga |mu|\ (E) data with default background parameters
 
 .. _figBRWA2:
 .. figure:: https://docs.xrayabsorption.org/EXAFSAnalysis/BackgroundRemovalWithAutobk/chik_default.png
    :align: center
    :width: 50%
 
-   Ga chi(k) data with default background parameters
+   Ga |chi|\ (k) data with default background parameters
 
 .. _figBRWA3:
 .. figure:: https://docs.xrayabsorption.org/EXAFSAnalysis/BackgroundRemovalWithAutobk/chir_default.png
    :align: center
    :width: 50%
 
-   Ga chi(R) data with default background parameters
+   Ga |chi|\ (R) data with default background parameters
 
 
 As you can see, the default values are not unreasonable. The
@@ -64,7 +64,7 @@ That said, this data processing effort is not perfect, either. The
 there is a peak just below 1 |AA| in |chi|\ (R) that is probably
 spurious. (Well, the fellow asking the question on the mailing list
 implied that he does not expect to see a peak at such a low R value. So
-I am presuming that the peak at about 1.5 &Aring; represents the nearest
+I am presuming that the peak at about 1.5 |AA| represents the nearest
 neighbor.)
 
 To proceed from here, one must understand which parameters in Athena
@@ -145,20 +145,20 @@ k-weight
   k-weight and visualize it with a different value. Or the same -- your
   choice.
 
-  Why does it matter how the k-weight is set during the
-  spline optimization? Well, the value of k-weight will have an impact on
-  the size of the Fourier components below R\ :sub:`bkg`. With a larger value
-  of k-weight, the high-k portion of |chi|\ (k) will be enhanced. It will
-  then, in a sense, enhance the sensitivity of the optimization to the the
-  exact value of the spline at high k values.
+  Why does it matter how the k-weight is set during the spline
+  optimization? Well, the value of k-weight will have an impact on the
+  size of the Fourier components below R\ :sub:`bkg`. With a larger
+  value of k-weight, the high-k portion of |chi|\ (k) will be
+  enhanced. It will then, in a sense, enhance the sensitivity of the
+  optimization to the the exact value of the spline at high k values.
 
-  In my experince,
-  a k-weight of 3 for the background removal is a good choice for
-  beautiful data, i.e. data that are not ocverly dominated by statistical
-  or systematic error at high k value. For noisy data, a large valule of
-  this k-weight can make the optimization unstable by forcing the spline
-  to attempt to follow amplified noise. For noisier data, I find that a
-  k-weight of 2 or even 1 is necessary.
+  In my experience, a k-weight of 3 for the background removal is a
+  good choice for beautiful data, i.e. data that are not overly
+  dominated by statistical or systematic error at high k value. For
+  noisy data, a large valule of this k-weight can make the
+  optimization unstable by forcing the spline to attempt to follow
+  amplified noise. For noisier data, I find that a k-weight of 2 or
+  even 1 is necessary.
 
 spline range
   Several mentions were made in the preceeding about the
@@ -177,26 +177,28 @@ spline range
   
 There is one more parameter that merits explanation. If you click the
 "Show additional parameters" button, you will see controls for the
-`spline clamp <http://cars9.uchicago.edu/~ravel/software/doc/Athena/html/bkg/kweight.html>`__.
-The spline clamps are a simple tool to constrain the ends of the spline
-to remain close to the |mu|\ (E) data. At times, the optimization of the
-spline might be such that the ends deviate significantly from the data.
-This would be a numerical result. Physically speaking, |mu|\ :sub:`0`\ (E)
-should always more or less "bisect" the wiggles of |mu|\ (E). The clamps
-work by adding a penalty to the metric that is evaluated in the
-optimization of the spline. This penalty is larger when, for the last
-five data points, the spline devaites in value from |mu|\ (E). This, in
-turn, encourages the spline function not to deviate significantly from
-the data. By default, the clamp is turned off at the low energy end of
-the data and is set to a fairly large value at the high energy end. The
-effect of the high energy clamp value is at times highly correlated to
-the k-weight used in the spline optimization. For some data, it is
-advantageous to use a small clamp and a large k-weight. At other times,
-a large clamp and large k-weight works best. And at other times, a large
-clamp and a small k-weight works best. Since the optimization is a
-numerical procedure that is affected by noise is ways that can be hard
-to predict, the best advice I can give is to methodically try all
-combinations.
+`spline clamp
+<http://cars9.uchicago.edu/~ravel/software/doc/Athena/html/bkg/kweight.html>`__.
+The spline clamps are a simple tool to constrain the ends of the
+spline to remain close to the |mu|\ (E) data. At times, the
+optimization of the spline might be such that the ends deviate
+significantly from the data.  This would be a numerical
+result. Physically speaking, |mu|\ :sub:`0`\ (E) should always more or
+less "bisect" the wiggles of |mu|\ (E). The clamps work by adding a
+penalty to the metric that is evaluated in the optimization of the
+spline. This penalty is larger when, for the last five data points,
+the spline devaites in value from |mu|\ (E). This, in turn, encourages
+the spline function not to deviate significantly from the data. By
+default, the clamp is turned off at the low energy end of the data and
+is set to a fairly large value at the high energy end. The effect of
+the high energy clamp value is at times highly correlated to the
+k-weight used in the spline optimization. For some data, it is
+advantageous to use a small clamp and a large k-weight. At other
+times, a large clamp and large k-weight works best. And at other
+times, a large clamp and a small k-weight works best. Since the
+optimization is a numerical procedure that is affected by noise is
+ways that can be hard to predict, the best advice I can give is to
+methodically try all combinations.
 
 Changing R_bkg
 --------------
@@ -210,7 +212,7 @@ data,
    :align: center
    :width: 50%
 	   
-   Experimenting with Rbkg
+   Experimenting with R\ :sub:`bkg`
 
 As you can see, this has an impact. Increasing R\ :sub:`bkg` changes the
 cut-off in Fourier space between the background and the data. Given a
@@ -219,14 +221,14 @@ function determined with successively larger R\ :sub:`bkg` values does a
 better job of elminiating the spurious peak below 1 |AA|\ . However, as
 we increase the R\ :sub:`bkg` value, the peak at about 1.5 |AA|\  is
 affected. Because the 1.5 |AA|\  peak is significantly attenuated by
-the choice of R\ :sub:`bkg`=1.4 |AA|\ , this value may be suspect.
+the choice of R\ :sub:`bkg`\ =1.4 |AA|\ , this value may be suspect.
 
 Changing k-weight
 -----------------
 
 Changing the k-weight used in the background removal affects the
 evaluation of the optimized spline. Here are three background removals,
-all with R\ :sub:`bkg`=1.2 |AA|\ , and with different values of k-weight.
+all with R\ :sub:`bkg`\ =1.2 |AA|\ , and with different values of k-weight.
 
 .. _figBRWA6:
 .. figure:: https://docs.xrayabsorption.org/EXAFSAnalysis/BackgroundRemovalWithAutobk/kw_k.png

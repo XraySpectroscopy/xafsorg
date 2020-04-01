@@ -9,8 +9,8 @@ Various topics related to XAFS data analysis
 
 * `Scott Calvin's EXAFS Divination Set <Analysis/EXAFS_Divination_Set.html>`__
 
-* Papers n the topic of how to determine if E0 parameters found in a
-  fit are sensible and how excessively large E0 values can affect data
+* Papers on the topic of how to determine if E\ :sub:`0` parameters found in a
+  fit are sensible and how excessively large E\ :sub:`0` values can affect data
   analysis
 
   * *Multiple solutions in data fitting: a trap in EXAFS structural analysis and some ideas to avoid it*
