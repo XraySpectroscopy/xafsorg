@@ -1,11 +1,11 @@
 .. xafs.org index
 
-XAFS.ORG
+XRAYABSORPTION.ORG
 ================================================
 
 .. _xrayabsorption.org:   https://xrayabsorption.org/
 
-XAFS.ORG is a community site for x-ray absorption fine-structure (XAFS) and
+XRAYABSORPTION.ORG is a community site for x-ray absorption fine-structure (XAFS) and
 related spectroscopies. It is part of the web pages sponsored by the
 International XAFS Society,  https://xrayabsorption.org/.
 

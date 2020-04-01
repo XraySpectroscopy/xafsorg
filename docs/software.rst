@@ -21,7 +21,7 @@ name.
 * `FitIt <http://nano.sfedu.ru/research/projects/fitit/>`_
 * `GNXAS <http://gnxas.unicam.it/pag_gnxas.html>`_
 * `Larch <http://xraypy.github.io/xraylarch/index.html>`_ :
-  Open-source library and set of applications for processing and
+  Matt Newville's open-source library and set of applications for processing and
   analyzing X-ray absorption and fluorescence spectroscopy data and
   X-ray fluorescence and diffraction image data from synchrotron
   beamlines.
@@ -31,7 +31,7 @@ name.
 * `SEDEM <https://www.esrf.eu/computing/scientific/exafs/SEDEM/SEDEM.html>`_
 * `SixPACK <https://www.sams-xrays.com/sixpack>`_ : Sam's Interface
   for XAS Package, a software package for x-ray absorption
-  spectroscopy data
+  spectroscopy data from Sam Webb
 * `TT-Multiplets <http://www.anorg.chem.uu.nl/people/staff/FrankdeGroot/ttmultiplets.htm>`_
 * `Viper
   <https://intranet.cells.es/Beamlines/CLAESS/software/viper.html>`_
@@ -39,11 +39,11 @@ name.
   <https://intranet.cells.es/Beamlines/CLAESS/software/xanda.html>`_
   by Konstantin Klementiev
 * `WinXAS <http://www.winxas.de/>`_ by Thorsten Ressler
-* `XDAP <http://www.xsi.nl/>`_ for Windows from XAFS Services International
 * `XANADU <http://www.ccn.yamanashi.ac.jp/~eijin/GermJpn.html>`_ by Masao Takahashi and Hideto Sakane
+* `XDAP <http://www.xsi.nl/>`_ for Windows from XAFS Services International
 
 
-Here is ESRF's `very old list of XAFS software <https://www.esrf.eu/computing/scientific/exafs/intro.html>`_.
+Here is ESRF's `rather dated list of XAFS software <https://www.esrf.eu/computing/scientific/exafs/intro.html>`_.
 
 
 
