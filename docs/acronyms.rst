@@ -126,6 +126,8 @@ There are a few different common measurement modes for X-ray absorption
 and emission spectroscopy.  Many of the acronyms above are really referring
 to these different modes, so we include a brief discussion here.
 
+.. _Transmission:
+
 .. rubric:: Transmission or Absorption Mode XAS
 
 This mode measures the X-ray absorption coefficient from the fraction of X-rays
