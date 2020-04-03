@@ -10,6 +10,7 @@ involve the excitation of core electronic levels or are sensitive to the
 chemical state or local atomic coordination around a particular element
 selected by an X-ray absorption edge or emission line.
 
+.. _related_xes:
 
 X-Ray Emission Spectroscopy
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -100,7 +101,7 @@ The geometries are based on the Rowland circle. In Johann and Johansson geometry
 [15] J. P. Hill, et al., J. Synch. Rad. 14, 361 (2007)
 
 
-
+.. _related_rixs:
 
 Resonant Inelastic X-ray scattering (RIXS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -137,6 +138,7 @@ electrons in solids. Reviews of Modern Physics, 2001. 73(1): p. 203-46.
 [2] F. Gel'mukhanov and H. Ågren, Resonant X-ray Raman scattering. Physics
 Reports-Review Section of Physics Letters, 1999. 312(3-6): p. 91-330.
 
+.. _related_xrs:
 
 X-ray Raman Spectroscopy
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -264,7 +266,7 @@ W. Schülke. Electron dynamics studied by inelastic x-ray scattering. Oxford Uni
 See also: https://en.wikipedia.org/wiki/X-ray_Raman_scattering
 
 
-
+.. _related_pdf:
 
 X-ray and Neutron scattering, Pair Distribution Function (PDF)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -311,10 +313,10 @@ A comparsion of PDF and XAFS methods includes:
      analysis past 5 Angstroms or so is challenging, while PDF can be
      sensitive up to 20 Angstroms or so.
 
+.. _related_dafs:
 
 Diffraction Anomalous Fine Structure (DAFS)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 
 DAFS is the XAFS-like oscillations observed in the diffracted intensities of Bragg diffraction peaks.

@@ -16,12 +16,18 @@ Acronyms (and typical English pronunciations)
 
 If no pronunciation is given, the acronym is typically spelled out.
 
+.. _xas:
+
    * **XAS**: *X-ray absorption spectroscopy*: The entire field
      and spectral range of an X-ray absorption spectra.
+
+.. _xafs:
 
    * **XAFS**: *X-ray absorption fine-structure spectroscopy*  ("EX-afs", sometimes
      "Zafs"):  The entire field and spectral range of an X-ray absorption
      spectra.
+
+.. _exafs:
 
    * **EXAFS**: *Extended X-ray absorption fine-structure spectroscopy*
      ("EX-afs"):  The spectral range well beyond (say, +30 eV) the
@@ -30,12 +36,15 @@ If no pronunciation is given, the acronym is typically spelled out.
      small-number of multiple-) scatterings can be used to interpret the
      spectra.
 
+.. _xanes:
+
    * **XANES**: *X-ray absorption near-edge spectroscopy* ("Zanes",
      sometimes "EX anes"): The spectral range at and near (say, +/- 50 eV)
      the absorption threshold.  This is especially sensitive to formal
      oxidation state and coordination chemistry.  Used mostly to describe
      spectra with absorption edges energies > 2000 eV ("hard X-rays").
 
+.. _nexafs:
 
    * **NEXAFS**: *Near-Edge X-ray absorption fine-structure spectroscopy*
      ("NEX afs"): The spectral range at and near (say, +/- 50 eV) the
@@ -43,80 +52,115 @@ If no pronunciation is given, the acronym is typically spelled out.
      oxidation state and coordination chemistry.  Used mostly to describe
      spectra with absorption edges energies < 2000 eV ("soft X-rays").
 
+.. _xes:
+
    * **XES**: *X-Ray Emission Spectroscopy*:  Spectroscopy of the detailed
-     shape of X-ray emission or fluorescence lines.
+     shape of X-ray emission or fluorescence lines.   See :ref:`related_xes`.
+
+.. _rxes:
 
    * **RXES**: *Resonant X-Ray Emission Spectroscopy*: Spectra measured by
      monitoring an X-ray fluorescence lines after resonant excitation,
      with incident X-ray energy at or near the absorption threshold.
+     See :ref:`related_xes`.
+
+.. _rixs:
 
    * **RIXS**: *Resonant Inelastic X-Ray Scattering*: Spectra measured with
      the emitted X-rays not tuned to a fluorescence energy but to small
-     energy transfers of a few eV.
+     energy transfers of a few eV.  See :ref:`related_rixs`.
+
+.. _tfy:
 
    * **TFY**: *Total Fluorescence Yield* X-ray absorption spectra
      measured in fluorescence mode, generally meaning that there is little
      or no energy-discrimination to select a particular fluorescence line
      from the absorbing core-level.
 
+.. _pfy:
+
    * **PFY**: *Partial Fluorescence Yield* X-ray absorption spectra
      measured in fluorescence mode, generally meaning that there some
      energy-discrimination to select a particular fluorescence line from
      the absorbing core-level.
+
+.. _herfd:
 
    * **HERFD**: *High Energy Resolution Fluorescence Detection* X-ray
      absorption spectra measured in fluorescence mode with very high
      resolution on the energy selection of the fluorescence line of
      interest - especially when using a crystal-analyzer to select an
      energy bandwith comparable to the natural energy width of the
-     core-level.
+     core-level.  See :ref:`related_xes`.
+
+.. _tey:
 
    * **TEY**: *Total Electron Yield* X-ray absorption spectra measured in
      emission mode by measuring the intensity of emitted electrons by the
      sample, typically without energy resolution.
 
+.. _pey:
+
    * **PEY**: *Partial Electron Yield* X-ray absorption spectra measured in
      emission mode by measuring the intensity of emitted electrons by the
      sample, typically with some energy resolution.
 
+.. _xeol:
+
    * **XEOL**: *X-ray excited optical luminescence* X-ray absorption
      spectra measured in emission mode using optical luminescence.
+
+.. _xmcd:
 
    * **XMCD**: *X-ray magnetic circular dichroism* The difference of X-ray
      absorption spectra measured with right- and left- circularly polarized
      light for a sample in a magnetic field.
 
+.. _xmld:
+
    * **XMLD**: *X-ray magnetic linear dichroism* The difference of X-ray
      absorption spectra measured with horizontally- and vertically- linear
      polarized light for a sample in a magnetic field.
 
+.. _mxafs:
+
    * **MXAFS**: *magnetic XAFS*  XAFS measured in XMCD- or XMLD-like
      difference mode.
+
+.. _spexafs:
 
    * **SPEXAFS**: *Spin-selective EXAFS*  X-ray absorption spectra measured
      using a spin-sensitive probe, such as difference of spin-up and
      spin-down X-ray emission spectra.
 
+.. _sexafs:
 
    * **SEXAFS**: *Surface EXAFS*  Surface-sensitive X-ray absorption
      spectra.  See :ref:`Surface Enhanced XAS`.
 
+.. _gixafs:
 
    * **GIXAFS**: *Grazing Incidence XAFS* X-ray absorption spectra measured
      in fluorescence mode near or slightly above the critical angle of a
      samples surface. See :ref:`Surface Enhanced XAS`.
 
+.. _reflexafs:
+
    * **REFLEXAFS**: *reflectivity EXAFS* X-ray absorption spectra measured
      using the X-rays reflected from a surface at or below the critical
      angle of a samples surface. See :ref:`Surface Enhanced XAS`.
 
+.. _dafs:
+
    * **DAFS**: *diffraction anomalous fine structure* X-ray spectroscopy
      measured by monitoring the intensity of a particular X-ray diffraction
      reflection. This will be a mixture of the real and imaginary
-     components of the resonant X-ray scattering factors.
+     components of the resonant X-ray scattering factors.  See :ref:`related_dafs`.
+
+.. _danes:
 
    * **DANES**: *diffraction anomalous near-edge structure*   The near-edge
-     portion of a DAFS signal.
+     portion of a DAFS signal. See :ref:`related_dafs`.
 
 
 Terms for Measurement Modes
@@ -126,7 +170,7 @@ There are a few different common measurement modes for X-ray absorption
 and emission spectroscopy.  Many of the acronyms above are really referring
 to these different modes, so we include a brief discussion here.
 
-.. _Transmission:
+.. _transmission:
 
 .. rubric:: Transmission or Absorption Mode XAS
 
@@ -140,6 +184,7 @@ sample of thickness :math:`x`..  This mode of measurement is most suitable
 for samples containing high concentrations (say 10% by weight or more) of
 the absorbing element.
 
+.. _fluorescence:
 
 .. rubric:: Fluorescence or Emission Mode XAS
 
