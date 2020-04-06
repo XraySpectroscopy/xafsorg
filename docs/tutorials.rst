@@ -132,7 +132,7 @@ Review Articles, Articles in Series
 
   * *X-ray Absorption Near-Edge Structure (XANES) Spectroscopy*,
     G. S. Henderson, F. M. F. de Groot, B. J. A. Moulton in Spectroscopic
-    Methods in Mineralology and Materials Sciences, (G.S. Henderson,
+    Methods in Mineralogy and Materials Sciences, (G.S. Henderson,
     D. R. Neuville, R. T. Downs, Eds)  Reviews in Mineralogy & Geochemistry
     vol. 78, p 75, 2014.
     `DOI:10.2138/rmg.2014.78.3  <https://doi.org/10.2138/rmg.2014.78.3>`_.
@@ -154,7 +154,7 @@ Review Articles, Articles in Series
     <https://doi.org/10.1016/S0010-8545(04)00294-2>`_.
 
 
-.. 
+..
   Information on Specific Topics in XAFS
 
   Webcasts, screencasts, and other remote learning tools
