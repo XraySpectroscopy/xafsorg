@@ -42,10 +42,11 @@ Databases for X-ray Absorption and XAFS measurements
 Periodic Table of X-ray Absorption and Emission Energies
 --------------------------------------------------------
 
-Below are links for a poster-sized Periodic Table of X-ray Absorption
-Edge energies and X-ray emission line energies.  This Periodic Table
-displays hard X-ray absorption edges (K, L1, L2, L3, M5) energies,
-principle K, L, and M emission line energies, and most common
+Poster-sized Periodic Table of X-ray Absorption Edge energies and X-ray
+emission line energies are available at
+https://xrayabsorption.org/xraytable.  These display the energies of the
+hard X-ray absorption edges (K, L1, L2, L3, M5) and the main K, L, and M
+emission lines, as well as the electronic configuration and most common
 oxidation states for each element.
 
 The table is generated using X-ray data from W. T. Elam, B. D. Ravel
@@ -55,29 +56,6 @@ pp. 121–128 (2002) (`DOI:10.1016/S0969-806X(01)00227-4
 to generate this Poster is freely available as part of the `XrayDB
 <https://github.com/xraypy/XrayDB/>`__ python module and database.
 
-The poster looks like this:
-
-.. _fig-XRT1:
-.. figure:: https://docs.xrayabsorption.org/Databases/XrayTable.png
-   :align: center
-
-but this image is too low-resolution to print well as a large format,
-and you should use one of the PDF files listed below.
-
-The poster is currently available picturing one of four physicists
-famous for pioneering work in X-ray spectroscopy.
-
-:Henry Mosley:
-   https://docs.xrayabsorption.org/XrayPeriodicTable/xray_table_Moseley.pdf
-
-:Charles G. Barkla:
-   https://docs.xrayabsorption.org/XrayPeriodicTable/xray_table_Barkla.pdf
-
-:Marie Curie:
-   https://docs.xrayabsorption.org/XrayPeriodicTable/xray_table_Curie.pdf
-
-:Dmitri Mendeleev:
-   https://docs.xrayabsorption.org/XrayPeriodicTable/xray_table_Mendeleev.pdf
 
 
 
@@ -89,7 +67,7 @@ Crystallography
   <https://www.crystallography.net/cod/>`_ : CIF files of inorganic
   and small organic crystals in the public domain
 
-.. 
+..
   Atoms.inp Archive, a database of crystallographic data, ready to be converted to input files for FEFF, hosted at CARS
   The Ifeffit FAQ has a list of additional crystallography resources.
 
@@ -101,7 +79,7 @@ Reference data
   for a simple flask and SQLite based data library.
 
 * `The Farrel Lytle Database at IIT
-  <http://ixs.iit.edu/database/data/Farrel_Lytle_data/>`_.  Note: 
+  <http://ixs.iit.edu/database/data/Farrel_Lytle_data/>`_.  Note:
   This is a
   "database" in the loosest possible sense of the term.
 
