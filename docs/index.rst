@@ -37,6 +37,7 @@ More information about XAFS can related methods can be found on the pages.
    :maxdepth: 2
 
    tutorials
+   videos
    workshops
    software
    databases
