@@ -6,6 +6,15 @@ Databases
 Databases for X-ray Absorption and XAFS measurements
 ----------------------------------------------------
 
+For X-ray properties of the elements, including absorption cross-sections,
+tools for calculating absorption lengths, mirror reflectivities,
+monochromator Darwin widths and more, see
+
+`X-ray Data for the Elements <https://xraydb.xrayabsorption.org>`_
+
+Other databases of X-ray absorption and scattering properties of the
+elements are at
+
 * `X-ray Absorption Cross-Section and Absorption Coefficient
   Calculations Periodic Table of x-ray absorption values (aka The
   McMaster Tables).
