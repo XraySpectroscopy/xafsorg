@@ -83,9 +83,12 @@ Crystallography
 Reference data
 --------------
 
-* `XAFS Data Library
-  <https://github.com/XraySpectroscopy/XASDataLibrary>`_ : A framework
+* `XAFS Data Library <https://xaslib.xrayabsorption.org>`_, based on code
+  at `XASDataLibrary <https://github.com/XraySpectroscopy/XASDataLibrary>`_ : A framework
   for a simple flask and SQLite based data library.
+
+* `NIMS Material Data Repository <https://mdr.nims.go.jp>`_ contains a very
+  large collection of XAFS spectra.
 
 * `The Farrel Lytle Database at IIT
   <http://ixs.iit.edu/database/data/Farrel_Lytle_data/>`_.  Note:
