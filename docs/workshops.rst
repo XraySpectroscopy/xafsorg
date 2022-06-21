@@ -21,12 +21,14 @@ More training and learning material can be found on `the Tutorials
 page <tutorials.html>`__
 
 
-NSLS XAFS Short Courses 2011 - 2019
+NSLS XAFS Short Courses 2005 - 2021
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This is a series of courses organized by Anatoly Frenkel and the
-NSLS/NSLS-II User Office.  In some cases, links to presentation
-materials are provided on the Agenda page.
+This is a series of courses organized by Anatoly Frenkel, the Synchrotron
+Catalysis Consortium, and the NSLS/NSLS-II User Office.
+
+
+In some cases, links to presentation materials are provided on the Agenda page.
 
 * `XAFS Short Course 2011 <https://www.bnl.gov/ps/workshops/XAFS-ShortCourse2011/>`__
 * `XANES Short Course 2012 <https://www.bnl.gov/ps/workshops/XANES-ShortCourse2012/>`__
@@ -37,6 +39,9 @@ materials are provided on the Agenda page.
 * `Data Analysis and Modeling of XANES and EXAFS Spectra: Applications to Nanomaterials 2017 <https://www.bnl.gov/exafs2017/>`__
 * `Introduction to X-ray Absorption Spectroscopy 2018 <https://www.bnl.gov/exafs2018/>`__
 * `Short Course on X-ray Absorption Fine Structure: Theory, Data Analysis and Modeling 2019 <https://www.bnl.gov/xafs2019/>`__
+
+See `XAFS Workshops<https://you.stonybrook.edu/scc2/xafs-workshops/>`_ for more (and more up-to-date) information.
+
 
 IIT 2013
 ~~~~~~~~
@@ -85,7 +90,7 @@ APS 2008
 :Simon Bare: `XANES Measurements and Interpretation <https://docs.xrayabsorption.org/Workshops/APS2008/Bare_XANES.pdf>`__
 :Scott Calvin: `EXAFS is not a Black Box or How I Learned to Stop Worrying and Love the Fit <https://docs.xrayabsorption.org/Workshops/APS2008/Calvin_Analysis.pdf>`__
 :Daniel Haskel: `XAFS and other techniques: <https://docs.xrayabsorption.org/Workshops/APS2008/Haskel_Other.pdf>`__
-:Shelly Kelly: `XAS Data Processing <https://docs.xrayabsorption.org/Workshops/APS2008/Kelly_Processing.pdf>`__ 
+:Shelly Kelly: `XAS Data Processing <https://docs.xrayabsorption.org/Workshops/APS2008/Kelly_Processing.pdf>`__
 	       (`example files <https://docs.xrayabsorption.org/Workshops/APS2008/Kelly_data.zip>`__)
 :Matt Newville: `X-ray Absorption Fine-Structure Spectroscopy <https://docs.xrayabsorption.org/Workshops/APS2008/Newville_Overview.pdf>`__
 :Bruce Ravel: `Advanced Topics in EXAFS Analysis <https://docs.xrayabsorption.org/Workshops/APS2008/Ravel_Advanced.pdf>`__
@@ -113,7 +118,7 @@ APS 2007
 :Matt Newville: `The APS Proposal System: Getting beamtime <https://docs.xrayabsorption.org/Workshops/APS2007/Newville_GUPS.pdf>`__
 :Scott Calvin: `EXAFS demonstration <https://docs.xrayabsorption.org/Workshops/APS2007/ScottExample.zip>`__
 :Bruce Ravel: `A Practical Introduction to Multiple Scattering Theory <https://docs.xrayabsorption.org/Workshops/APS2007/Ravel_Theory.pdf>`__
-:Bruce Ravel: `An Artemis Example: Methyl Tin <https://docs.xrayabsorption.org/Workshops/APS2007/Ravel_artemis.pdf>`__  
+:Bruce Ravel: `An Artemis Example: Methyl Tin <https://docs.xrayabsorption.org/Workshops/APS2007/Ravel_artemis.pdf>`__
 	      (`example files <https://docs.xrayabsorption.org/Workshops/APS2007/Ravel.zip>`__)
 
 
@@ -200,4 +205,3 @@ NSLS 2001
 :Jim Penner-Hahn: `X-ray absorption spectroscopy of Zn sites in biology <https://docs.xrayabsorption.org/Workshops/NSLS2001/PennerHahn.pdf>`__
 :Ed Stern: `Avoiding Some Pitfalls in XAFS Analysis <https://docs.xrayabsorption.org/Workshops/NSLS2001/Stern.pdf>`__
 :Steve Wasserman: `Principal Component Analysis: Getting an Edge on EXAFS <https://docs.xrayabsorption.org/Workshops/NSLS2001/Wasserman.pdf>`__
-
