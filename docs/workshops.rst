@@ -40,7 +40,7 @@ In some cases, links to presentation materials are provided on the Agenda page.
 * `Introduction to X-ray Absorption Spectroscopy 2018 <https://www.bnl.gov/exafs2018/>`__
 * `Short Course on X-ray Absorption Fine Structure: Theory, Data Analysis and Modeling 2019 <https://www.bnl.gov/xafs2019/>`__
 
-See `XAFS Workshops<https://you.stonybrook.edu/scc2/xafs-workshops/>`_ for more (and more up-to-date) information.
+See `XAFS Workshops <https://you.stonybrook.edu/scc2/xafs-workshops/>`_ for more (and more up-to-date) information.
 
 
 IIT 2013
