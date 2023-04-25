@@ -12,10 +12,9 @@ Synchrotrons, Light Sources, Beamlines
   light source facilities around the world
   <https://lightsources.org>`_
 
-* `IUCr XAFS Commission
-  <https://www.iucr.org/resources/commissions/xafs>`_ including
-  Federico Bowstring's (University of Bologna) XAFS beamline
-  compendium:
+.. * `IUCr XAFS Commission
+
+.. <https://www.iucr.org/resources/commissions/xafs>`_ includingFederico BoscherinI's (University of Bologna) XAFS beamline compendium:
 
   * `Beamlines in the Americas <https://www.iucr.org/resources/commissions/xafs/beamlines-in-the-americas>`_
   * `Beamlines in Europe <https://www.iucr.org/resources/commissions/xafs/beamlines-in-europe>`_
@@ -26,6 +25,8 @@ Synchrotrons, Light Sources, Beamlines
 
    Beamline training
    XAFS Online Orientation, an interactive Flash-based tutorial produced by the National Synchrotron Light Source
+
+
 
 Beamline Hardware
 -----------------
