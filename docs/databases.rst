@@ -90,6 +90,10 @@ Reference data
 * `NIMS Material Data Repository <https://mdr.nims.go.jp>`_ contains a very
   large collection of XAFS spectra.
 
+* `SSHADE FAME (ESRF BM30) XAFS Database <https://www.sshade.eu/db/fame>`_
+
+* `Canadian Light Source X-ray Absorption Spectroscopy Database  <https://xasdb.lightsource.ca/>`_
+
 * `The Farrel Lytle Database at IIT
   <http://ixs.iit.edu/database/data/Farrel_Lytle_data/>`_.  Note:
   This is a
